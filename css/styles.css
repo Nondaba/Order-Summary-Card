@@ -17,7 +17,6 @@ body {
   font-size: 1rem;
   font-family: "Red Hat Display", sans-serif;
   display: grid;
-  /* justify-content: center; */
   place-content: center;
   background-image: url("/images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
@@ -27,12 +26,12 @@ body {
 
 /* hero section */
 main {
-  width: 360px;
+  width: 22.5rem;
   border-radius: 0.9375rem;
   background-color: white;
-  height: 540px;
-  margin-top: 50px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0 10px 10px;
+  height: 35rem;
+  margin-top: 3.125rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0 0.625rem 0.625rem;
 }
 .hero figure img {
   max-width: 100%;
@@ -41,7 +40,7 @@ main {
 
 /* summary section */
 .summary {
-  padding: 15px 1.875rem;
+  padding: 0.9375rem 1.875rem;
   text-align: center;
 }
 .summary h1 {
@@ -60,8 +59,8 @@ main {
   background-color: var(--Verypaleblue);
   display: block;
   margin: 0 1.875rem;
-  height: 70px;
-  border-radius: 8px;
+  height: 4.375rem;
+  border-radius: 0.5rem;
   position: relative;
 }
 .payment-plan figure img {
@@ -71,21 +70,21 @@ main {
   height: 4.375rem;
 }
 
-.payment-plan h5 {
+#plan {
   padding-top: 0.8125rem;
   line-height: 1.5625rem;
   color: var(--Darkblue);
-  font-weight: 900;
+  font-weight: 700;
 }
 .payment-plan p {
-  padding-bottom: 1.875rem;
+  padding-bottom: 0.125rem;
   color: var(--Desaturatedblue);
-  font-weight: 700;
+  font-weight: 500;
 }
 .payment-plan a:hover {
   cursor: pointer;
   text-decoration: none;
-  color: hsl(244, 36%, 55%);
+  color: hsl(245deg 75% 52% / 70%);
 }
 
 .payment-plan a {
@@ -93,7 +92,7 @@ main {
   right: 1.25rem;
   top: 1.5625rem;
   color: var(--Brightblue);
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /* check out section */
@@ -102,7 +101,7 @@ main {
   padding-top: 1.375rem;
 }
 .box-shadow {
-  box-shadow: 0 0 20px;
+  box-shadow: 0 0 1.25rem;
   width: 18.75rem;
 }
 .check-out button {
@@ -110,21 +109,22 @@ main {
   display: block;
   width: 18.75rem;
   height: 2.5rem;
-  margin: 0px 30px;
+  margin: 0px 1.875rem;
   border: none;
   border-radius: 0.5rem;
-  font-weight: 900;
+  font-weight: 700;
   color: white;
-  box-shadow: 0 15px 10px rgb(0, 0, 0, 0.19);
+  box-shadow: 0 0.9375rem 0.625rem rgb(0, 0, 0, 0.19);
 }
 .check-out button:hover {
   cursor: pointer;
-  background-color: hsl(244, 36%, 55%);
+  background-color: hsl(245deg 75% 52% / 70%);
 }
 
 .check-out p {
-  padding-top: 18px;
-  font-weight: 900;
+  padding-top: 1.5625rem;
+  font-weight: 700;
+
   color: var(--Desaturatedblue);
 }
 .check-out p:hover {
@@ -133,9 +133,9 @@ main {
 }
 
 .attribution {
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-align: center;
-  padding: 1.375rem;
+  padding-top: 3.75rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -149,10 +149,10 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--Paleblue);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
   }
   .summary p {
-    padding: 0 15px;
+    padding: 0 0.9375rem;
   }
 }
